@@ -113,9 +113,9 @@ html,body {
   padding: 10px ;
 }
 
-.nav-item.dropdown:hover .dropdown-menu {
+/* .nav-item.dropdown:hover .dropdown-menu {
   display: block;
-}
+} */
 
 /* Buttons Styles */
 .btn-purple {
@@ -128,8 +128,12 @@ html,body {
     display: inline-block;
 }
 
+.btn-close {
+    color: #4d5e66 !important;
+}
+
 .btn-purple:hover {
-    background-color: #3A1D64;
+    background-color: #b61f34;
     color: #fff; transition: 0.5s
 }
 
@@ -139,8 +143,7 @@ html,body {
 }
 
 .ex:hover {
-    background-color: white;
-    color: 3A1D64;
+    background-color: #3A1D64;
 }
 
 .intro-overlay {
@@ -251,7 +254,7 @@ html,body {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3A1D64", endColorstr="#170C28", GradientType=1);
 }
 
-.address .phone. email {
+.address .phone .email {
     font-size: 18px;
 }
 
@@ -271,7 +274,7 @@ html,body {
 }
 
 .icon-wrapper img {
-    background-color: #9B5DE5;
+    background-color: #b61f34;
     position: relative;
     margin: auto;
     font-size: 30px;
@@ -294,7 +297,7 @@ html,body {
 }
 
 .scard p {
-    color: #3A1D64;
+    color: #b61f34;
     transition: 0.5s;
 }
 
@@ -306,11 +309,14 @@ html,body {
 
 
 .testimonials {
-  height: 650px ;
+  min-height: 600px auto ;
   width: 100%;
   background-color: var(--bs-blue-4);
 }
 
+.tcard {
+    padding: 10px;
+}
 .testimonials .img-box {
 	width: 135px;
 	height: 135px;
