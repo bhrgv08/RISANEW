@@ -309,7 +309,7 @@ html,body {
 
 
 .testimonials {
-  min-height: 600px auto ;
+  min-height: 600px;
   width: 100%;
   background-color: var(--bs-blue-4);
 }
