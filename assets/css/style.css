@@ -274,7 +274,7 @@ html,body {
 }
 
 .icon-wrapper img {
-    background-color: #b61f34;
+    background-color: #9B5DE5;
     position: relative;
     margin: auto;
     font-size: 30px;
@@ -297,7 +297,7 @@ html,body {
 }
 
 .scard p {
-    color: #b61f34;
+    color: #9B5DE5;
     transition: 0.5s;
 }
 
