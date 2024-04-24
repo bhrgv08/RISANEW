@@ -80,6 +80,15 @@ html,body {
     background: transparent url("img/logo2.png") 0% 0% no-repeat padding-box;
 }
 
+.nabh-logo {
+    visibility: hidden;
+}
+
+.nav-scrolled .nabh-logo {
+    position: absolute;
+    right: -250px;
+    visibility: visible;
+}
 
 /* Navigation Styles */
 .navb {
