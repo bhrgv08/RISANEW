@@ -130,6 +130,7 @@ html,body {
 .nav-scrolled .head-text{
   color: #3A1D64;
   transition: 0.5s;
+  margin-top: 15px;
 }
 
 .head-text {
@@ -205,19 +206,41 @@ html,body {
 
 /*----------------------*/
 
-/* @media only screen and (max-width: 330px) {
-    .cbtn {
-        padding: 3px 7px;
-        
-        margin-right: -92px;
+@media only screen and (max-width: 768px) {
+    .nav-scrolled .nabh-logo {
+        /* visibility: hidden; */
+        position: absolute;
+        right: -300px;
+        visibility: visible;
+        /* height: 100px !important;  */
     }
-    .cbtn:hover{
-        margin-right: 0;
-        transition: 0.5s;
-     box-shadow:2px 5px 10px grey;
+
+    .head-text {
+        margin-left: -30px;
     }
-} */
-@media only screen and (max-width: 425px) {
+}
+@media only screen and (max-width: 350px) {
+    .nav-scrolled .nabh-logo {
+        /* visibility: hidden; */
+        position: absolute;
+        right: -570px;
+        visibility: visible;
+        width: 30% !important; 
+    }
+}
+@media only screen and (max-width: 550px) {
+    .head-text {
+        margin-left: 0px;
+    }
+    .nav-scrolled .nabh-logo {
+        /* visibility: hidden; */
+        /* position: absolute; */
+        right: -400px;
+        visibility: visible;
+        top: 8px;
+        z-index: -2;
+        /* width: 180px !important;  */
+    }
     .cbtn {
         padding: 3px 7px;
         /* margin-bottom: 55px; */
