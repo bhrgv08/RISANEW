@@ -15,9 +15,16 @@
     --bs-code-color: #AC3B67;
     --bs-pink: #3A1D64; 
     --bs-blue-4: #502C82;
-    --bs-gradient: linear-gradient(#3A1D64,#0c0614);
-    --bs-gradient-1: linear-gradient(#D17F7F,#C03240);
+    --bs-gradient: linear-gradient(#3A1D64,#2b7094);
+    --bs-gradient-1: linear-gradient(#D17F7F,#7396aa);
     /* --bs-gradient-2: linear-gradient(#D17F7F,#C03240); */
+}
+
+.bg-lblue {
+  background: #2b7094;
+}
+.bg-ll {
+  background: #7396aa;
 }
 
 .abtext {
