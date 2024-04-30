@@ -16,7 +16,7 @@
     --bs-pink: #3A1D64; 
     --bs-blue-4: #502C82;
     --bs-gradient: linear-gradient(#3A1D64,#2b7094);
-    --bs-gradient-1: linear-gradient(#D17F7F,#7396aa);
+    --bs-gradient-1: linear-gradient(#715885,#7396aa);
     /* --bs-gradient-2: linear-gradient(#D17F7F,#C03240); */
 }
 
@@ -66,49 +66,3 @@
     /* line-height: 4px; */
     
 }
-
-.sticky-social{
-    position:fixed;
-    top:160px;
-    right:-5px;
-    padding:0px;
-    margin:0px;
-  }
-  .social{
-    list-style:none;
-  }
-  .social li{
-    padding:10px 10px;
-    font-size:25px;
-    transition:all 0.8s ease-in-out;
-  }
-  .social li:hover{
-      margin-left:-30px;
-   box-shadow:2px 5px 10px grey;
-  }
-  .social li:hover .fa{
-      margin-left:20px;
-    
-  }
-  .fa{
-    color:#fff;
-    transition:all 0.8s ease-in-out;
-  }
-  .fb{
-    background-color:#3C5A98;
-  }
-  .linkedin{
-      background-color:#0A66C2;
-  }
-  .yt{
-      background-color:#F60408;
-  }
-  .fb i{
-    color: var(--bs-white);
-}
-  .linkedin i{
-    color: var(--bs-white);
-  }
-  .yt i{
-    color: var(--bs-white);
-  }
