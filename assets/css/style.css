@@ -221,7 +221,6 @@ html,body {
 }
 @media only screen and (max-width: 350px) {
     .nav-scrolled .nabh-logo {
-        /* visibility: hidden; */
         position: absolute;
         right: -570px;
         visibility: visible;
@@ -233,27 +232,22 @@ html,body {
         margin-left: 0px;
     }
     .nav-scrolled .nabh-logo {
-        /* visibility: hidden; */
-        /* position: absolute; */
         right: -400px;
         visibility: visible;
         top: 8px;
         z-index: -2;
-        /* width: 180px !important;  */
     }
     .cbtn {
         padding: 3px 7px;
-        /* margin-bottom: 55px; */
         margin-right: -92px;
     }
     .cbtn:hover{
-        /* margin-left:-30px; */
         margin-right: 0;
         transition: 0.5s;
      box-shadow:2px 5px 10px grey;
     }
     .logo {
-        height: 50px; /* Reduced height for even smaller screens */
+        height: 50px;
         margin-top: 10px;
         margin-left: -30px;
     }
@@ -300,10 +294,17 @@ html,body {
         left: 40px;
         margin-top: 20px;
         transition: 0.5s;
-        /* margin-left: 60px; */
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .fac-img {
+        margin-top: 10%;
+    }
+    .about .container-fluid{
+        padding: 40px;
+    }
+}
 @media only screen and (min-width: 426px) {
     .ex {
         margin-left: 50px;
@@ -535,15 +536,9 @@ html,body {
 
 
  .contact-form {
-	 /* width: 80vw; */
-	 /* display: flex; */
 	 justify-content: space-between;
-	 /* background: #fff; */
 	 margin: 50px 0;
 }
- /* .contact-form > * {
-	 width: 50%;
-} */
  .contact-form .fsec {
 	 background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("https://images.pexels.com/photos/2746155/pexels-photo-2746155.jpeg?auto=compress&cs=tinysrgb&w=600") center center / cover no-repeat;
 	 display: flex;
@@ -579,10 +574,6 @@ html,body {
 	 text-align: center;
 	 margin-bottom: 20px;
 }
- /* .contact-form .second-container form {
-	 display: flex;
-	 flex-direction: column;
-} */
  .contact-form .form-group {
 	 margin-bottom: 10px;
 }
@@ -591,16 +582,6 @@ html,body {
 	 border: 1px solid #e6e6e6;
 	 padding: 0 20px;
 }
- /* .contact-form .second-container form .form-group label {
-	 display: flex;
-	 align-items: center;
-	 width: 100%;
-	 border: 1px solid #e6e6e6;
-	 font-size: 16px;
-	 color: #333;
-	 text-transform: uppercase;
-	 margin-top: -1px;
-} */
  .contact-form .second-container form .form-group:first-of-type input {
 	 width: 50.1%;
 	 margin-right: -5px;
@@ -620,43 +601,11 @@ html,body {
 	 padding: 10px 20px;
 	 margin-top: -1px;
 }
- /* .contact-form .second-container form button {
-	 width: 200px;
-	 height: 50px;
-	 background: #3A1D64;
-	 color: #fff;
-	 font-size: 17px;
-	 font-weight: 600;
-	 text-transform: uppercase;
-	 border: 0;
-	 position: relative;
-	 left: calc(50% - 100px);
-	 cursor: pointer;
-}
- .contact-form .second-container form button:hover {
-	 background: #333;
-} */
- /* @media screen and (max-width: 800px) {
-	 .contact-form {
-		 width: 90vw;
-	}
-}
- @media screen and (max-width: 700px) {
-	 .contact-form {
-		 flex-direction: column-reverse;
-	}
-	 .contact-form > * {
-		 width: 100%;
-	}
-	 .contact-form .fsec {
-		 padding: 40px 0;
-	}
-} */
- 
 
 .map-link a {
     text-decoration: none;
 }
 .map-link a:hover {
     opacity: 0.5;
+    transition: 0.5s;
 }
