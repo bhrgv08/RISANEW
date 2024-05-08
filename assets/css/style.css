@@ -177,7 +177,7 @@ html,body {
 }
 
 .intro-overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 10px 15px 12px rgba(0,0,0,0.15);
     border-radius: 5px;
     padding-bottom: 20px;
@@ -296,7 +296,7 @@ html,body {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .fac-img {
         margin-top: 15%;
     }
