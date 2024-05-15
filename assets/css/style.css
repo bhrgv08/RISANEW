@@ -168,8 +168,7 @@ html,body {
 }
 
 .ex {
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: #b61f34;
 }
 
 .ex:hover {
