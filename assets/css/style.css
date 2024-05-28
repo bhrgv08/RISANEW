@@ -296,9 +296,6 @@ html,body {
 }
 
 @media only screen and (min-width: 769px) {
-    .fac-img {
-        margin-top: 15%;
-    }
     .about .container-fluid{
         padding: 40px;
     }
