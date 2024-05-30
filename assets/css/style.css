@@ -38,40 +38,6 @@ html,body {
 
 .logo {
     height: 70px;
-    display: flex;
-}
-
-.logoname {
-    margin-left: 6px;
-    margin-bottom: 10px;
-}
-
-.logoname > h1 {
-    font-size: 20px;
-    margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 4px;
-    font-size: larger;
-    font-weight: 700;
-}
-
-.logoname > .first {
-    margin-top: -13px;
-    width: 100%;
-}
-
-.logoname > .second {
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.line {
-    width: 100%;
-    height: 1px;
-    margin-top: -14px;
-    background-color: white;
 }
 
 .logo > a img {
@@ -109,12 +75,6 @@ html,body {
 }
 .nav-scrolled .logo {
     visibility: hidden;
-}
-.nav-scrolled .logoname {
-    /* color: #000; */
-    transition: 0.5s;
-    display: hidden;
-    
 }
 .nav-scrolled .fa-bars {
     color: #3A1D64;
@@ -259,19 +219,6 @@ html,body {
         width: 50px;
         margin-left: 20px;
     }
-
-    .logoname > h1 {
-        font-size: 15px;
-    }
-
-    .logoname > .first {
-        font-size: 12px;
-    }
-
-    .logoname > .second {
-        font-size: 11px;
-    }
-
     .intro-overlay {
         justify-content: center;
         text-align: center;
@@ -559,10 +506,10 @@ html,body {
 	 line-height: 1.6;
 	 color: #fff;
 }
- .contact-form .second-container {
+ .contact-form .form-container {
 	 padding: 30px;
 }
- .contact-form .second-container h2 {
+ .contact-form .form-container h2 {
 	 font-size: 30px;
 	 font-weight: 400;
 	 line-height: 1.2;
@@ -572,24 +519,24 @@ html,body {
  .contact-form .form-group {
 	 margin-bottom: 10px;
 }
- .contact-form .second-container form .form-group * {
+ .contact-form .form-container form .form-group * {
 	 min-height: 55px;
 	 border: 1px solid #e6e6e6;
 	 padding: 0 20px;
 }
- .contact-form .second-container form .form-group:first-of-type input {
+ .contact-form .form-container form .form-group:first-of-type input {
 	 width: 50.1%;
 	 margin-right: -5px;
 }
- .contact-form .second-container form .form-group input {
+ .contact-form .form-container form .form-group input {
 	 width: 100%;
 	 font-size: 15px;
 	 margin-top: -2px;
 }
- .contact-form .second-container form .form-group input::placeholder, .contact-form .second-container form .form-group textarea::placeholder {
+ .contact-form .form-container form .form-group input::placeholder, .contact-form .form-container form .form-group textarea::placeholder {
 	 color: #999;
 }
- .contact-form .second-container form .form-group textarea {
+ .contact-form .form-container form .form-group textarea {
 	 width: 100%;
 	 min-height: 80px;
 	 resize: none;
