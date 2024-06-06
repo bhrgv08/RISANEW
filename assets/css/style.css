@@ -81,10 +81,6 @@ html,body {
     transition: 0.5s;
     margin-left: 10px;
 }
-.nav-scrolled .line {
-    /* background: #7e7e7e; */
-    transition: 0.5s;
-}
 .nav-scrolled img{
   padding: 10px ;
 }
@@ -210,9 +206,9 @@ html,body {
         margin-left: -30px;
     }
 
-    .cbtn {
+    /* .cbtn {
         padding: 5px 10px;
-    }
+    } */
 
     .logo > a img {
         height: 50px; 
