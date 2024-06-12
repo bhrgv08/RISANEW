@@ -547,3 +547,25 @@ html,body {
     opacity: 0.5;
     transition: 0.5s;
 }
+
+
+
+
+/**********************/
+
+.fcard {
+    background: linear-gradient(#ffffff 50%, #3A1D64 50%);
+    background-color: #3A1D64;
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 20px;
+    padding-bottom: 5px
+}
+
+.text-purple {
+    color: #9D1E5F;
+}
