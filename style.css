@@ -320,3 +320,170 @@ background: rgba(88, 164, 151, 0.5);
   font-size: 18px;
   line-height: 30px;
 }
+
+ul li {
+  list-style: none;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion > li:first-child {
+  border: none;
+}
+
+.accordion > li {
+  position: relative;
+  border-top: 1px solid #2ea1de;
+}
+
+.accordion .link a {
+  position: relative;
+  display: block;
+  padding: 15px 20px;
+  color: #1b3746;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.accordion .link > a {
+  background-color: #3A1D64;
+  color: #f8f9f9;
+  padding: 20px;
+}
+
+/* .accordion .link > a:hover {
+  background: #3A1D64;
+  color: #f8f9f9;
+} */
+
+
+/* submenu */
+
+.submenu {
+  display: none;
+  background: #f8f9f9;
+}
+
+.accordion .submenu > li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #3A1D64;
+  cursor: pointer;
+}
+
+.accordion .submenu > li:first-child {
+  border: none;
+}
+
+.accordion .submenu > li {
+  border-top: 1px solid #dae0e0;
+}
+
+.accordion .submenu > li a:hover {
+  background: #e6ecec;
+  color: #1795d8;
+  padding: 10px 15px 10px 20px;
+  transition: padding 0.2s ease-in;
+}
+
+.fa {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.active .fa {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black; /* Change color as needed */
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.has-submenu .sub-submenu {
+  display: none;
+}
+
+.has-submenu.open .arrow {
+  transform: rotate(180deg);
+}
+
+.tcard {
+  height: 320px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: -1px 3px 5px #a7a7a7;
+}
+.testimonial {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+.active-star {
+  color: #fbc02d;
+  margin-bottom: 8px;
+}
+.active-star:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+.profile {
+  padding-top: 10px;
+}
+.name {
+  font-weight: 700;
+}
+.designation {
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.owl-carousel {
+  margin-bottom: 15px;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 40px 10px;
+  height: 380px;
+}
+.owl-carousel .owl-item img {
+  width: 45px !important;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 50% !important;
+  background: inherit !important;
+  border: 3px solid #bbb;
+  color: #bbb !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  border: 3px solid #1010ca;
+  color: #1010ca !important;
+}
+
+.doctorp1{
+  border-radius: 50%;
+
+}
+
+#doctors ,p{
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.dcard {
+  height: 200px;
+}
