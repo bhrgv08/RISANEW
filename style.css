@@ -474,16 +474,20 @@ ul li {
   color: #1010ca !important;
 }
 
-.doctorp1{
-  border-radius: 50%;
-
-}
-
-#doctors ,p{
-  line-height: 25px;
-  font-size: 13px;
-}
-
 .dcard {
-  height: 200px;
+  height: 200px  auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .dcard {
+    min-height: 200px !important;
+  }
+  .dcard p{
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .dcard {
+    text-align: center;
+  }
 }
