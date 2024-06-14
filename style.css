@@ -422,7 +422,6 @@ ul li {
 }
 
 .tcard {
-  height: 320px;
   padding: 10px 20px;
   border: none;
   box-shadow: -1px 3px 5px #a7a7a7;
@@ -432,21 +431,7 @@ ul li {
   line-height: 1.4rem;
   font-weight: 500;
 }
-.active-star {
-  color: #fbc02d;
-  margin-bottom: 8px;
-}
-.active-star:hover {
-  color: #f9a825;
-  cursor: pointer;
-}
-.profile {
-  padding-top: 10px;
-}
-.name {
-  font-weight: 700;
-}
-.designation {
+.disease {
   font-size: 0.84rem;
   font-weight: 600;
 }
@@ -462,16 +447,6 @@ ul li {
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
-}
-.owl-theme .owl-nav [class*="owl-"] {
-  border-radius: 50% !important;
-  background: inherit !important;
-  border: 3px solid #bbb;
-  color: #bbb !important;
-}
-.owl-theme .owl-nav [class*="owl-"]:hover {
-  border: 3px solid #1010ca;
-  color: #1010ca !important;
 }
 
 .dcard {
