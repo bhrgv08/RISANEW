@@ -449,6 +449,7 @@ ul li {
   object-fit: cover;
 }
 
+
 .dcard {
   height: 200px  auto;
 }
@@ -465,4 +466,8 @@ ul li {
   .dcard {
     text-align: center;
   }
+  .cbtn {
+    padding: 3px 7px;
+    margin-right: -80px;
+}
 }
