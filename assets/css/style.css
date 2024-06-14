@@ -193,7 +193,7 @@ html,body {
     }
     .cbtn {
         padding: 3px 7px;
-        margin-right: -92px;
+        margin-right: -80px;
     }
     .cbtn:hover{
         margin-right: 0;
@@ -205,10 +205,6 @@ html,body {
         margin-top: 10px;
         margin-left: -30px;
     }
-
-    /* .cbtn {
-        padding: 5px 10px;
-    } */
 
     .logo > a img {
         height: 50px; 
