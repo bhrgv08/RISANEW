@@ -1,11 +1,6 @@
 html,
 body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
+  background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -449,10 +444,22 @@ ul li {
   object-fit: cover;
 }
 
-
 .dcard {
   height: 200px  auto;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+      cursor: pointer;
+    transition: 0.6s;
+  
 }
+
+.dcard:hover {
+  transform: scale(1, 1);
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1), 
+    -5px -5px 10px 5px rgba(0,0,0,0.1);
+}
+
 
 @media only screen and (min-width: 768px) {
   .dcard {
@@ -470,4 +477,9 @@ ul li {
     padding: 3px 7px;
     margin-right: -80px;
 }
+}
+
+
+#fone {
+  margin-top: 110px;
 }
