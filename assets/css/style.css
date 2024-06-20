@@ -439,6 +439,14 @@ html,body {
     padding-bottom: 5px
 }
 
+#fone {
+    margin-top: 110px;
+  }
+  
+  .fos-1 {
+    font-size: 18px;
+    
+  }
 
 /*-----------Media Queries Fix-----------*/
 
@@ -460,6 +468,10 @@ html,body {
         visibility: visible;
         width: 30% !important; 
     }
+
+    .intro-overlay {
+        display: none;
+    } 
 }
 @media only screen and (max-width: 550px) {
     .head-text {
@@ -541,3 +553,4 @@ html,body {
         display: none;
     }
 }
+
