@@ -1,68 +1,16 @@
 :root{
     --bs-white: #FFFFFF;
     --bs-black:#000000;
-    
+    --bs-purple:#9D1E5F;
     --bs-blue:#3A1D64;
-    --bs-blue-2:#d8d2e0;
-    --bs-pink-2:#E28389;
-    --bs-color-gray-1: #A0A0A0;
-    --bs-color-gray-2: #606060  ;
-    --bs-color-gray-3:#333333;
-    --bs-color-gray-4:#707070;
-    --bs-color-gray-5:#181717;
-    --bs-gray-300: #d5d8db;
-    --bs-gray-400: #eaecee;
-    --bs-code-color: #AC3B67;
-    --bs-pink: #3A1D64; 
+    --bs-red: #b61f34;
     --bs-blue-4: #502C82;
-    --bs-gradient: linear-gradient(#3A1D64,#2b7094);
-    --bs-gradient-1: linear-gradient(#715885,#7396aa);
-    /* --bs-gradient-2: linear-gradient(#D17F7F,#C03240); */
-}
-
-.bg-lblue {
-  background: #2b7094;
-}
-.bg-ll {
-  background: #7396aa;
-}
-
-.abtext {
-  line-height: 28px;
-  font-size: 16px;
 }
 
 .text-blue {
-  color: #3A1D64;
-}
-.docard {
-    box-shadow: 0px 10px 15px 11px rgba(0,0,0,0.1);
+  color: var(--bs-blue);
 }
 
-
-.docpage {
-    height: 100vh auto;
-}
-
-.docontent {
-    padding-left: 50px;
-    margin-top: 10px;
-}
-
-@media only screen and (min-width: 1023px) {
-    
-    .dochead {
-       /* padding-top: 350px; */
-       margin-top: 200px;
-       /* top: 50%; */
-     }
-
-
-}
-
-.uline {
-    text-decoration: underline;
-    color: var(--bs-blue);
-    /* line-height: 4px; */
-    
+.text-purple {
+  color: var(--bs-purple);
 }
