@@ -1,5 +1,23 @@
-@import url(root.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --bs-white: #FFFFFF;
+    --bs-black:#000000;
+    --bs-purple:#9D1E5F;
+    --bs-blue:#3A1D64;
+    --bs-red: #b61f34;
+    --bs-blue-4: #502C82;
+}
+
+.text-blue {
+  color: var(--bs-blue);
+}
+
+.text-purple {
+  color: var(--bs-purple);
+}
+.bg-blue {
+    background-color: var(--bs-blue);
+}
 html,body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +28,13 @@ html,body {
     font-optical-sizing: auto;
     letter-spacing: 0.5px;
 }
-
+ul {
+    list-style: none;
+    }
+    
+    ul li {
+      list-style: none;
+    }
 .wrapper {
     position: relative;
     width: 100%;
@@ -460,6 +484,10 @@ html,body {
     .head-text {
         margin-left: -30px;
     }
+
+    .dcard {
+        text-align: center;
+      }
 }
 @media only screen and (max-width: 350px) {
     .nav-scrolled .nabh-logo {
@@ -530,6 +558,12 @@ html,body {
     .about .container-fluid{
         padding: 40px;
     }
+    .dcard {
+        min-height: 200px !important;
+      }
+      .dcard p{
+        line-height: 22px;
+      }
 }
 @media only screen and (min-width: 426px) {
     .ex {
