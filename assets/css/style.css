@@ -28,13 +28,7 @@ html,body {
     font-optical-sizing: auto;
     letter-spacing: 0.5px;
 }
-ul {
-    list-style: none;
-    }
-    
-    ul li {
-      list-style: none;
-    }
+
 .wrapper {
     position: relative;
     width: 100%;
