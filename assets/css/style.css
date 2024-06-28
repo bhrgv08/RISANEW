@@ -7,7 +7,9 @@
     --bs-red: #b61f34;
     --bs-blue-4: #502C82;
 }
-
+a {
+    text-decoration: none;
+}
 .text-blue {
   color: var(--bs-blue);
 }
