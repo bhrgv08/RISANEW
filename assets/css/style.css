@@ -484,6 +484,10 @@ html,body {
     .dcard {
         text-align: center;
       }
+    .dhead {
+        text-align: center;
+        margin-top: 30px;
+      }
 }
 @media only screen and (max-width: 350px) {
     .nav-scrolled .nabh-logo {
