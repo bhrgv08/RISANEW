@@ -15,133 +15,133 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </head>
-
+<style>
+    .banner {
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+    .profile-content {
+      margin-top: -50px; /* adjust this value as needed */
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 <body>
 
-    <section id="intro">
-        <div class="wrapper">
-            <video autoplay loop muted class="wrapper-video">
-                <source src="assets/imgs/video.mp4">
-                <!-- <source src="//vimeo-hp-videos.global.ssl.fastly.net/3/3.mp4"> -->
-            </video>
-            <div class="overlay-content">
-                <header>
-                    <nav class="navb navbar fixed-top navbar-expand-lg">
-                        <a class="text-white position-absolute mt-2 start-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel"><i class="fa-solid fa-bars p-2 mb-1 fa-2x"></i></a>
-                        <div class="logo">
-                            <a style="margin-left: 42px" href=""><img src="assets/imgs/logo.png" alt="Ramaiah logo" style="width: auto; object-fit: cover;"></a>
-                        </div>
-                        <p class="text-center fw-bold head-text fs-2"><span class="fw-bold" style="letter-spacing: 3px;">RAMAIAH </span>AYURVEDA</p>
+    <header>
+        <nav class="navb navbar fixed-top navbar-expand-lg">
+            <a class="text-white position-absolute mt-2 start-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel"><i class="fa-solid fa-bars p-2 mb-1 fa-2x"></i></a>
+            <div class="logo">
+                <a style="margin-left: 42px" href=""><img class="p-2" src="https://ramaiahayurveda.com/wp-content/uploads/2019/07/logo1.png" alt="Ramaiah logo" style="width: auto; object-fit: cover;"></a>
+            </div>
+            <p class="text-center fw-bold head-text" style="font-size: 36px;"><span class="fw-bold" style="letter-spacing: 3px;">RAMAIAH </span>AYURVEDA</p>
 
-                        <div class="nabh-logo">
-                            <img src="assets/imgs/nabh.png" class="d-sm-block d-md-block d-lg-none" width="15%" alt="">
-                            <img src="assets/imgs/nabh.png" class="d-none d-lg-block d-xl-block" width="20%" alt="">
-                        </div>
+            <div class="nabh-logo">
+                <img src="assets/imgs/nabh.png" class="d-sm-block d-md-block d-lg-none" width="15%" alt="">
+                <img src="assets/imgs/nabh.png" class="d-none d-lg-block d-xl-block" width="20%" alt="">
+            </div>
 
-                        <div class="position-absolute end-0 top-4">
-                            <a type="button" class="cbtn btn-purple" href="tel:YOUR-PHONE-NUMBER"><i class="fa-solid fa-phone me-2"></i>Click to call</a>
-                        </div>
-                    </nav>
-                    <!-- Offcanvas Navbar -->
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                                <div class="logoname">
-                                    <h1>RAMAIAH</h1>
-                                    <p class="first">Indic Specialty Ayurveda</p>
-                                    <div class="line"></div>
-                                    <p class="second">RESTORATION HOSPITAL</p>
-                                </div>
-                            </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: #fff; color: #0c0614;"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <div class="position-absolute end-0 top-4">
+                <a type="button" class="cbtn btn-purple" href="tel:YOUR-PHONE-NUMBER"><i class="fa-solid fa-phone me-2"></i>Click to call</a>
+            </div>
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-regular fa-address-card me-2"></i> About RISA
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="founders.html">Founder Story</a></li>
-                                        <li><a class="dropdown-item" href="#">Management</a></li>
-                                        <li><a class="dropdown-item" href="#">Our Story</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-feather me-2"></i> Ayurveda & Yoga
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Ayurveda</a></li>
-                                        <li><a class="dropdown-item" href="#">Yoga</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-user-doctor me-2"></i> Specialities
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="generalmedicine.html">General Medicine</a></li>
-                                        <li><a class="dropdown-item" href="pediatrics.html">Paediatrics</a></li>
-                                        <li><a class="dropdown-item" href="eyeent.html">Eye & ENT</a></li>
-                                        <li><a class="dropdown-item" href="parasurgery.html">Parasurgery</a></li>
-                                        <li><a class="dropdown-item" href="gynaecology.html">Gynaecology</a></li>
-                                        <li><a class="dropdown-item" href="yoga.html">Yoga</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-house-medical me-2"></i> Facilities
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Facility 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Facility 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-photo-film me-2"></i> Media & Galleries
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+        </nav>
+        <!-- Offcanvas Navbar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <div class="logoname">
+                        <h1>RAMAIAH</h1>
+                        <p class="first">Indic Specialty Ayurveda</p>
+                        <div class="line"></div>
+                        <p class="second">RESTORATION HOSPITAL</p>
                     </div>
-                </header>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: #fff; color: #0c0614;"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-                <div class="intro-overlay pb-5 pt-3 mb-2">
-                    <div class="container text-left-spacing " data-aos="slide-up">
-                        <div class="row">
-                            <h1 class="pt-3 fs-1">RAMAIAH AYURVEDA</h1>
-                            <p class="pt-3 fs-4"> Your Journey to holistic Health Care begins here</p>
-                        </div>
-                    </div>
-                    <div class="container text-left-spacing">
-                        <div class="row buttons mt-4" data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
-                            <div class="col-12 ">
-                                <a href="#" type="button" class=" btn-purple mb-3">ONLINE CONSULTATION</a>
-                                <a href="#" type="button" class="ex btn-purple mb-3">AREA OF EXPERTISE</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-address-card me-2"></i> About RISA
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Founder Story</a></li>
+                            <li><a class="dropdown-item" href="#">Management</a></li>
+                            <li><a class="dropdown-item" href="#">Our Story</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-feather me-2"></i> Ayurveda & Yoga
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ayurveda</a></li>
+                            <li><a class="dropdown-item" href="#">Yoga</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-doctor me-2"></i> Specialities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="generalmedicine.html">General Medicine</a></li>
+                            <li><a class="dropdown-item" href="pediatrics.html">Paediatrics</a></li>
+                            <li><a class="dropdown-item" href="eyeent.html">Eye & ENT</a></li>
+                            <li><a class="dropdown-item" href="parasurgery.html">Parasurgery</a></li>
+                            <li><a class="dropdown-item" href="gynaecology.html">Gynaecology</a></li>
+                            <li><a class="dropdown-item" href="yoga.html">Yoga</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-house-medical me-2"></i> Facilities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Facility 1</a></li>
+                            <li><a class="dropdown-item" href="#">Facility 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-photo-film me-2"></i> Media & Galleries
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="about">
-        <div class="container">
-            <h2 class="fs-1 pb-4 pt-4">Welcome</h2>
-            <p class="fs-4 pb-4">Your premier destination for HEALING and WELLNESS.</p>
-            <div class="row">
-                <div class="col-lg-10 mx-auto  rounded-4 ">
-                    <img data-aos="zoom-in" src="assets/imgs/fcc.png" alt="" class="rounded-4 fac-img bg-white p-3">
-                    <p class="text-white pt-5 pb-5" style="font-size: 18px;"> Join us on a transformative journey towards holistic wellness , where ancient traditions meet modern science and healing.</p>
-
-                </div>
+    <section class="about" style="margin-top: 110px;">
+        <div class="banner fw-bold bg-blue">
+            <h1 class="fs-1">Dr. Krishna J</h1>
+          </div>
+          
+          <div class="container profile-content">
+            <div class="row p-3">
+              <div class="col-md-4 bg-light">
+                <img src="assets/imgs/drkrishna.png" class="img-fluid mx-auto d-block mt-5" width="70%" alt="Dr. Krishna J">
+              </div>
+              <div class="col-md-8 mb-4">
+                <h2>Dr. Krishna J</h2>
+                <p><strong>Current Position:</strong> Medical Superintendent</p>
+                <p>Dr Krishna J is currently serving as Medical Superintendent in our Hospital. He is “Ayurveda Vachaspathi” i.e. Post graduate in Panchakarma from institution SDM college of Ayurveda, Hassan and is trained for Traditional Ayurveda Panchakarma and its applications in different disorders under several renowned Vaidyas.</p>
+                <p>He has served in Academics as Professor for over 10 years. In his 19 years journey, he has served under several domains in Ayurveda and Wellness industry. He was ‘Medical Director’ for distinguished organizations like Premier Vedic Village Spa Resorts, Kolkatta; The white Lotus Global Integrative Healthcare Destination, New Delhi; Shatayu Ayurveda Pvt. Ltd, Bengaluru.</p>
+                <p>He is personal consultant for Former Prime Minister of India, Former Chief Minister of Karnataka, Former Chief Justice of Karnataka and several Bureaucrats. He has been a key note speaker in both National and International Conferences on Healthcare and Ayurveda.</p>
+                <p>“Ayurveda Sevak Award”, “Young Achiever” awards are a few of his accolades that he received for his contribution towards the healthcare industry. He had been instrumental in getting first NABH Accreditation for Wellness in the country at the Vedic Village in par with the global standards 2013. He was NABH assessor for wellness centres and was appointed as a member of Technical committee, Accreditation Program for Wellness Centres, NABH- 2012.</p>
+              </div>
             </div>
-        </div>
+          </div>
     </section>
 
 
