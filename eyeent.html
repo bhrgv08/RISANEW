@@ -109,14 +109,11 @@
     <section id="slider" style="margin-top: 90px;">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="assets/imgs/jscc.png" alt=""></div>
-                <div class="swiper-slide"><img src="assets/imgs/jscc.png" alt=""></div>
-                <div class="swiper-slide"><img src="assets/imgs/jscc.png" alt=""></div>
-                <div class="swiper-slide"><img src="assets/imgs/jscc.png" alt=""></div>
-                <!-- <div class="swiper-slide"><img src="https://disha9801.github.io/testrepo/img/cimg1.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="https://disha9801.github.io/testrepo/img/cimg1.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="https://disha9801.github.io/testrepo/img/cimg1.jpg" alt=""></div> -->
-
+                <div class="swiper-slide"><img src="assets/imgs/jss.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/imgs/jss.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/imgs/jss.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/imgs/jss.png" alt=""></div>
+       
                 <div class="swiper-pagination"></div>
             </div>
         </div>
@@ -376,12 +373,29 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
+       var swiper = new Swiper(".mySwiper", {
             pagination: {
                 el: ".swiper-pagination",
                 dynamicBullets: true,
-                autoplay: true,
             },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                320: { // Mobile devices
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: { // Tablets
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: { // Desktops
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                }
+            }
         });
 
     </script>
@@ -405,7 +419,7 @@
                     nav: false
                 },
                 1000: {
-                    items: 3,
+                    items: 4,
                     nav: true,
                     loop: false
                 }
