@@ -43,7 +43,7 @@ border: none;
   font-size: 18px;
   /* width: 400px; */
   height: 300px !important;
-  background: var(--bs-blue);
+  /* background: var(--bs-blue); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,8 +51,9 @@ border: none;
 
 .swiper-slide img {
   /* display: block; */
-  width: 100%;
+  width: 90%;
   height: 100%; 
+  /* border-radius: 30px; */
   /* border-radius: 30px; */
   /* object-fit: cover;*/
 }
